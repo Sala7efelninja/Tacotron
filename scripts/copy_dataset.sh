@@ -25,9 +25,11 @@ VALLIST_MEL="$FILELISTSDIR/ljs_mel_text_val_filelist.txt"
 
 mkdir -p "$DATADIR/mels"
 mkdir -p "$DATADIR/wavs"
-# cp -v "./drive/My Drive/dataset/$DATADIR/metadata.csv" "$DATADIR/metadata.csv" &
-sort $TESTLIST $TRAINLIST $VALLLIST |uniq >/tmp/LIST
+
+cp -v "./drive/My Drive/dataset/$DATADIR/metadata.csv" "$DATADIR/metadata.csv" &
+
+sort -u $TESTLIST $TRAINLIST $VALLIST >/tmp/LIST
+
 tmp="/tmp/LIST"
+
 copy_files $tmp
-# copy_files $TRAINLIST
-# copy_files $VALLIST
