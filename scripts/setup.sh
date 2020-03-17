@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 pip install unidecode
 pip install "git+https://github.com/NVIDIA/dllogger"
 export CUDA_HOME=/usr/local/cuda-10.1

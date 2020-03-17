@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-if [ -n $1 ]; then
-    output = $1
+if [ -n "$1" ]; then
+    output=$1
 else
     output="output"
 fi
