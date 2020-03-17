@@ -195,8 +195,9 @@ def main():
 
     tacotron2 = load_and_setup_model('Tacotron2', parser, args.tacotron2,
                                      args.amp_run, forward_is_infer=True)
-    waveglow = load_and_setup_model('WaveGlow', parser, args.waveglow,
-                                    args.amp_run, forward_is_infer=True)
+    # waveglow = load_and_setup_model('WaveGlow', parser, args.waveglow,
+    #                                 args.amp_run, forward_is_infer=True)
+    waveglow= torch.load(args.waveglow)['model']
     denoiser = Denoiser(waveglow).cuda()
 
     jitted_tacotron2 = torch.jit.script(tacotron2)
@@ -226,7 +227,7 @@ def main():
         mel, mel_lengths = jitted_tacotron2(sequences_padded, input_lengths)
 
     with torch.no_grad(), MeasureTime(measurements, "waveglow_time"):
-        audios = waveglow(mel, sigma=args.sigma_infer)
+        audios = waveglow.infer(mel, sigma=args.sigma_infer)
         audios = audios.float()
         audios = denoiser(audios, strength=args.denoising_strength).squeeze(1)
 
