@@ -1,0 +1,490 @@
+2020-03-03 18:10:08,309 DEBUG    root            Loaded Command Group: [u'gcloud', u'components']
+2020-03-03 18:10:08,313 DEBUG    root            Loaded Command Group: [u'gcloud', u'components', u'update']
+2020-03-03 18:10:08,317 DEBUG    root            Running [gcloud.components.update] with arguments: [--allow-no-backup: "True", --quiet: "True", COMPONENT-IDS:6: "[u'core', u'gcloud-deps', u'bq', u'gcloud', u'gsutil', u'anthoscli']"]
+2020-03-03 18:10:20,658 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,659 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 283.0.0
+
+2020-03-03 18:10:20,659 INFO     ___FILE_ONLY___ Installing components from version: 283.0.0
+
+2020-03-03 18:10:20,659 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,671 INFO     ___FILE_ONLY___ +-----------------------------------------------------------------------------+
+2020-03-03 18:10:20,671 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ |                     These components will be installed.                     |
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ +-----------------------------------------------------+------------+----------+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ |                         Name                        |  Version   |   Size   |
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ +-----------------------------------------------------+------------+----------+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,672 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___     2.0.54
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___  < 1 MiB
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,673 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___     2.0.53
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___  < 1 MiB
+2020-03-03 18:10:20,674 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ Cloud SDK Core Libraries (Platform Specific)       
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ 2020.02.14
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,675 INFO     ___FILE_ONLY___  < 1 MiB
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___       4.48
+2020-03-03 18:10:20,676 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___  3.6 MiB
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,677 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___       4.47
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___  < 1 MiB
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___ Default set of gcloud commands                     
+2020-03-03 18:10:20,678 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___           
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___         
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,679 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___ anthoscli                                          
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___           
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___         
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,680 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___ anthoscli                                          
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___     0.0.14
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___ 23.9 MiB
+2020-03-03 18:10:20,681 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ gcloud cli dependencies                            
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ 2018.08.03
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:20,682 INFO     ___FILE_ONLY___  8.6 MiB
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___ +-----------------------------------------------------+------------+----------+
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,683 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:20,944 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2020-03-03 18:10:20,950 INFO     ___FILE_ONLY___ #============================================================#
+
+2020-03-03 18:10:20,950 INFO     ___FILE_ONLY___ #= Creating update staging area                             =#
+
+2020-03-03 18:10:20,950 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:20,951 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:20,951 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:20,951 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:21,069 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,091 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,115 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,169 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,191 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,214 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,244 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,277 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,299 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,325 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,354 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,378 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,402 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,426 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,453 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,469 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,484 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,509 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,529 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,586 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,610 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,637 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,665 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,695 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,727 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,759 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,782 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,806 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,826 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,850 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,873 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,898 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,922 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,942 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:21,963 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,091 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,118 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,151 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,192 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,260 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,355 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,369 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,369 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:22,376 INFO     ___FILE_ONLY___ #= Installing: BigQuery Command Line Tool                   =#
+
+2020-03-03 18:10:22,376 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:22,626 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,627 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,627 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,628 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,629 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,629 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,629 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,630 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,630 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,631 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,632 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,632 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,633 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,633 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,634 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,634 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,635 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,636 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,636 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,637 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,637 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,638 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,638 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,638 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,639 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,639 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,640 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,640 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,641 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,642 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,708 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,711 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,713 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,717 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,720 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,722 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,725 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,728 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,730 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,733 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,736 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,739 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,742 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,745 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,746 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,749 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,751 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,754 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,757 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,762 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,767 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,770 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,772 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,774 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,777 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,781 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,783 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,787 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,792 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,799 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:22,799 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:22,816 INFO     ___FILE_ONLY___ #= Installing: BigQuery Command Line Tool (Platform Spec... =#
+
+2020-03-03 18:10:22,816 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:23,065 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:23,066 INFO     ___FILE_ONLY___ ===============
+2020-03-03 18:10:23,067 INFO     ___FILE_ONLY___ ===============
+2020-03-03 18:10:23,067 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:23,078 INFO     ___FILE_ONLY___ #= Installing: Cloud SDK Core Libraries (Platform Specific) =#
+
+2020-03-03 18:10:23,078 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:23,145 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:23,146 INFO     ___FILE_ONLY___ ==========
+2020-03-03 18:10:23,147 INFO     ___FILE_ONLY___ =========
+2020-03-03 18:10:23,147 INFO     ___FILE_ONLY___ ===========
+2020-03-03 18:10:23,148 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:23,158 INFO     ___FILE_ONLY___ #= Installing: Cloud Storage Command Line Tool              =#
+
+2020-03-03 18:10:23,159 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:23,220 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,222 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,224 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,225 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,226 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,228 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,229 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,231 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,231 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,232 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,233 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,233 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,234 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,234 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,235 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,235 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,236 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,237 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,237 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,238 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,240 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,241 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,242 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,243 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,245 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,246 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,251 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,251 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,252 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,254 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,628 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,648 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,663 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,677 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,692 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,707 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,722 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,735 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,749 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,768 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,790 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,805 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,821 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,836 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,850 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,871 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,892 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,911 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,928 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,945 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,961 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,974 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:23,988 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,000 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,016 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,031 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,046 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,069 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,093 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,118 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,118 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:24,183 INFO     ___FILE_ONLY___ #= Installing: Cloud Storage Command Line Tool (Platform... =#
+
+2020-03-03 18:10:24,184 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:24,453 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:24,454 INFO     ___FILE_ONLY___ ===============
+2020-03-03 18:10:24,454 INFO     ___FILE_ONLY___ ===============
+2020-03-03 18:10:24,455 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:24,466 INFO     ___FILE_ONLY___ #= Installing: Default set of gcloud commands               =#
+
+2020-03-03 18:10:24,466 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:24,472 INFO     ___FILE_ONLY___ ============================================================
+2020-03-03 18:10:24,472 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:24,477 INFO     ___FILE_ONLY___ #= Installing: anthoscli                                    =#
+
+2020-03-03 18:10:24,478 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:24,483 INFO     ___FILE_ONLY___ ============================================================
+2020-03-03 18:10:24,484 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:24,489 INFO     ___FILE_ONLY___ #= Installing: anthoscli                                    =#
+
+2020-03-03 18:10:24,489 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:24,771 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,775 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,779 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,783 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,788 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,797 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,803 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,808 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,813 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,819 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,823 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,828 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,835 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,840 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,844 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,849 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,853 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,858 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,864 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,870 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,874 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,879 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,883 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,888 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,893 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,897 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,901 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,904 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,908 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:24,915 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:25,601 INFO     ___FILE_ONLY___ =====
+2020-03-03 18:10:25,602 INFO     ___FILE_ONLY___ =====
+2020-03-03 18:10:25,603 INFO     ___FILE_ONLY___ =====
+2020-03-03 18:10:25,605 INFO     ___FILE_ONLY___ ====
+2020-03-03 18:10:25,606 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:26,166 INFO     ___FILE_ONLY___ =====
+2020-03-03 18:10:26,166 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:26,182 INFO     ___FILE_ONLY___ #= Installing: gcloud cli dependencies                      =#
+
+2020-03-03 18:10:26,182 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:26,436 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,441 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,445 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,447 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,448 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,449 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,450 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,451 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,453 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,454 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,456 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,458 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,459 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,463 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,464 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,468 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,470 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,474 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,477 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,478 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,480 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,481 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,485 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,489 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,491 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,493 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,498 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,500 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,502 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,504 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,799 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,800 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,800 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,801 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,802 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,802 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,803 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,803 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,804 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,804 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,805 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,805 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,806 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,806 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,807 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,807 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,808 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,808 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,809 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,810 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,810 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,811 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,812 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:26,812 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,050 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,051 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,054 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,055 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,056 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,056 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:27,056 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:27,070 INFO     ___FILE_ONLY___ #= Creating backup and activating new installation          =#
+
+2020-03-03 18:10:27,070 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:27,070 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2020-03-03 18:10:27,071 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:27,071 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2020-03-03 18:10:27,071 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:27,071 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:27,077 DEBUG    root            Updating notification cache...
+2020-03-03 18:10:27,078 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:27,083 INFO     ___FILE_ONLY___ Performing post processing steps...
+2020-03-03 18:10:27,084 DEBUG    root            Executing command: ['/usr/bin/python2', u'-S', u'/tools/google-cloud-sdk/lib/gcloud.py', u'components', u'post-process']
+2020-03-03 18:10:39,454 DEBUG    ___FILE_ONLY___ 
+2020-03-03 18:10:39,454 DEBUG    ___FILE_ONLY___ 
+2020-03-03 18:10:39,605 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2020-03-03 18:10:39,612 INFO     root            Display format: "none"

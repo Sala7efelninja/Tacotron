@@ -195,6 +195,7 @@ def main():
 
     tacotron2 = load_and_setup_model('Tacotron2', parser, args.tacotron2,
                                      args.amp_run, forward_is_infer=True)
+    # tacotron2 = torch.load(args.tacotron2)['model']
     # waveglow = load_and_setup_model('WaveGlow', parser, args.waveglow,
     #                                 args.amp_run, forward_is_infer=True)
     waveglow= torch.load(args.waveglow)['model']

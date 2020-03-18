@@ -1,0 +1,155 @@
+2020-03-03 18:10:40,052 DEBUG    root            Loaded Command Group: [u'gcloud', u'components']
+2020-03-03 18:10:40,055 DEBUG    root            Loaded Command Group: [u'gcloud', u'components', u'update']
+2020-03-03 18:10:40,059 DEBUG    root            Running [gcloud.components.update] with arguments: [--quiet: "True", COMPONENT-IDS:8: "[u'gcloud', u'core', u'bq', u'gsutil', u'compute', u'preview', u'alpha', u'beta']"]
+2020-03-03 18:10:40,367 WARNING  root            Component [preview] no longer exists.
+2020-03-03 18:10:40,368 WARNING  root            Component [compute] no longer exists.
+2020-03-03 18:10:40,369 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,369 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 283.0.0
+
+2020-03-03 18:10:40,369 INFO     ___FILE_ONLY___ Installing components from version: 283.0.0
+
+2020-03-03 18:10:40,370 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ +----------------------------------------------+
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ |     These components will be installed.      |
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ +-----------------------+------------+---------+
+2020-03-03 18:10:40,375 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ |          Name         |  Version   |   Size  |
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ +-----------------------+------------+---------+
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ gcloud Alpha Commands
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,376 INFO     ___FILE_ONLY___ 2019.05.17
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ < 1 MiB
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___ gcloud Beta Commands 
+2020-03-03 18:10:40,377 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ 2019.05.17
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ | 
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ < 1 MiB
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___  
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ |
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ +-----------------------+------------+---------+
+2020-03-03 18:10:40,378 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,379 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:40,658 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2020-03-03 18:10:40,664 INFO     ___FILE_ONLY___ #============================================================#
+
+2020-03-03 18:10:40,664 INFO     ___FILE_ONLY___ #= Creating update staging area                             =#
+
+2020-03-03 18:10:40,664 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:40,665 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:41,045 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:41,045 INFO     ___FILE_ONLY___ ======
+2020-03-03 18:10:41,234 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,294 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,379 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,426 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,487 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,561 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,611 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,666 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,724 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,776 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,830 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,879 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,912 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:41,964 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,009 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,084 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,146 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,195 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,264 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,337 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,403 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,462 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,509 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,557 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,614 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,668 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,709 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:42,778 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,031 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,101 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,218 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,359 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,528 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,570 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,639 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,718 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,776 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,890 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:43,960 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:44,001 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:44,058 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:44,131 INFO     ___FILE_ONLY___ =
+2020-03-03 18:10:44,132 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:44,146 INFO     ___FILE_ONLY___ #= Installing: gcloud Alpha Commands                        =#
+
+2020-03-03 18:10:44,146 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:44,400 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:44,402 INFO     ___FILE_ONLY___ =======
+2020-03-03 18:10:44,402 INFO     ___FILE_ONLY___ ========
+2020-03-03 18:10:44,402 INFO     ___FILE_ONLY___ =======
+2020-03-03 18:10:44,403 INFO     ___FILE_ONLY___ ========
+2020-03-03 18:10:44,403 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:44,444 INFO     ___FILE_ONLY___ #= Installing: gcloud Beta Commands                         =#
+
+2020-03-03 18:10:44,445 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:44,691 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:44,693 INFO     ___FILE_ONLY___ =======
+2020-03-03 18:10:44,693 INFO     ___FILE_ONLY___ ========
+2020-03-03 18:10:44,693 INFO     ___FILE_ONLY___ =======
+2020-03-03 18:10:44,694 INFO     ___FILE_ONLY___ ========
+2020-03-03 18:10:44,694 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:44,704 INFO     ___FILE_ONLY___ #= Creating backup and activating new installation          =#
+
+2020-03-03 18:10:44,705 INFO     ___FILE_ONLY___ #
+2020-03-03 18:10:44,705 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2020-03-03 18:10:44,705 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:44,705 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2020-03-03 18:10:44,706 INFO     ___FILE_ONLY___ ==============================
+2020-03-03 18:10:44,706 INFO     ___FILE_ONLY___ #
+
+2020-03-03 18:10:44,713 DEBUG    root            Updating notification cache...
+2020-03-03 18:10:44,714 INFO     ___FILE_ONLY___ 
+
+2020-03-03 18:10:44,719 INFO     ___FILE_ONLY___ Performing post processing steps...
+2020-03-03 18:10:44,719 DEBUG    root            Executing command: ['/usr/bin/python2', u'-S', u'/tools/google-cloud-sdk/lib/gcloud.py', u'components', u'post-process']
+2020-03-03 18:10:58,101 DEBUG    ___FILE_ONLY___ 
+2020-03-03 18:10:58,101 DEBUG    ___FILE_ONLY___ 
+2020-03-03 18:10:58,243 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2020-03-03 18:10:58,249 INFO     root            Display format: "none"
