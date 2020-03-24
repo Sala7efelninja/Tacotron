@@ -36,6 +36,7 @@ sys.path.append(abspath(dirname(__file__)+'/../'))
 from common.layers import ConvNorm, LinearNorm
 from common.utils import to_gpu, get_mask_from_lengths
 
+from GST import GST
 
 class LocationLayer(nn.Module):
     def __init__(self, attention_n_filters, attention_kernel_size,
@@ -616,6 +617,7 @@ class Tacotron2(nn.Module):
         self.encoder = Encoder(encoder_n_convolutions,
                                encoder_embedding_dim,
                                encoder_kernel_size)
+        self.gst = GST()           
         self.decoder = Decoder(n_mel_channels, n_frames_per_step,
                                encoder_embedding_dim, attention_dim,
                                attention_location_n_filters,
@@ -663,6 +665,10 @@ class Tacotron2(nn.Module):
         embedded_inputs = self.embedding(inputs).transpose(1, 2)
 
         encoder_outputs = self.encoder(embedded_inputs, input_lengths)
+        
+        style_embed = self.gst(inputs)  # [N, 256]
+        style_embed = style_embed.expand_as(encoder_outputs)
+        encoder_outputs= encoder_outputs + style_embed
 
         mel_outputs, gate_outputs, alignments = self.decoder(
             encoder_outputs, targets, memory_lengths=input_lengths)
